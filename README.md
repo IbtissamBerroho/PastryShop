@@ -62,4 +62,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## When the Admin Valid command, the user receives a message : 
 ![Alt text](images/validcommand.png)
+
+## Home Page : 
+![Alt text](images/screenshot (10).png)
+
