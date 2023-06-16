@@ -1,0 +1,242 @@
+:root {
+    --main-color : #603601
+    /* --main-color : #91300A */
+}
+/* START Header */
+#logo
+{
+    width: 100px;
+    height: 100px;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.nav-link{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.nav-item{
+    color: var(--main-color);
+}
+nav.navbar.navbar-expand-md.navbar-light.bg-white.shadow-sm {
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.479);
+    height: 100px;
+}
+.d-flex {
+    display: flex !important;
+    align-items: center;
+    margin: 0 10px;
+}
+#msg{
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/* END Header */
+/* START bg  */
+
+
+#app{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Title {
+    height: 20vh;
+    color: var(--main-color);
+    font-family: 'Fasthand', cursive;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* END bg  */
+/* START products section  */
+.products{
+    width: 100%;
+    padding: 20px;
+}
+.d-flex{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#navbarSupportedContent a.dropdown-item {
+    color: var(--main-color);
+}
+img.card-img-top {
+    width: 100%;
+    height: 200px;
+}
+img.card-img-top:hover {
+    filter: grayscale(0);
+    transform: scale(1.03);
+}
+.card.product{
+    width: calc(100% / 3);
+    /* height: 548.56px; */
+    margin: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card.product footer{
+    border-top: none;
+}
+p.card-text.milieu {
+    height: 125px;
+    margin-bottom: 100px;
+}
+h5.card-title {
+    height: 43px;
+}
+a.btn{
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid var(--main-color);
+}
+a.btn:hover{
+    background-color: white;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+.card button{
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.card button:hover{
+    background-color: white;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+#details-Products{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#details-Products div{
+    width: calc(100% / 4);
+    margin: 0 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+/* END products section  */
+/* Start Messege section  */
+h5 span {
+    color: var(--main-color);
+    font-weight: bold;
+}
+.HeadernotTransparent{
+    background-color: var(--main-color);
+    color: white;
+    padding: 0;
+    height: 85px;
+}
+.HeadernotTransparent li, .HeadernotTransparent a{
+    color: white;
+}
+/* END Messege section  */
+/* START Setting   */
+.dropdown#stg {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    z-index: 1000;
+    top: 40px;
+    right: 0;
+}
+.dropdown button{
+    padding: 15px;
+}
+div#offcanvasScrolling {
+    background-color: #000000bd;
+    color: white;
+    border-radius: 0 7px 7px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.offcanvas-body ul{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.offcanvas-body {
+    padding: 0;
+}
+.offcanvas-body li{
+    width: 100%;
+    padding: 0;
+    margin:  0 auto;
+}
+.offcanvas-body a, .offcanvas-body button{
+    width: 80%;
+    color : white;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px 10px;
+    transition: all 0.5s;
+}
+.offcanvas-body a:hover, .offcanvas-body button:hover{
+    width: 100%;
+    background-color: var(--main-color);
+    color: white;
+}
+/* END Setting   */
+/* Start ADD PRODUCT   */
+.headerNotTransparent{
+    height: 84px;
+    background-color: var(--main-color);
+    color: white;
+}
+.headerNotTransparent li, .headerNotTransparent a{
+    color: white;
+}
+/* ul.navbar-nav.ms-auto {
+    width: 100%;
+    position: absolute;
+    z-index: 40000;
+    background-color: white;
+    color: var(--main-color);
+}
+ul.navbar-nav.ms-auto li, ul.navbar-nav.ms-auto a{
+    color: var(--main-color);
+} */
+button.navbar-toggler.collapsed {
+    color: white;
+    background: white;
+}
+label{
+    color: var(--main-color);
+    font-weight: bold;
+}
+button.btn{
+    background-color: var(--main-color);
+    color: white;
+}
+#formAddProduct{
+    border: 1.5px solid var(--main-color);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+/* End ADD PRODUCT   */
+
+
